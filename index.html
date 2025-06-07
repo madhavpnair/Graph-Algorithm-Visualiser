@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Graph Algorithm Visualizer - DFS, BFS & Kosaraju</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Graph Algorithm Visualizer</h1>
+  <!-- <canvas id="graphCanvas" width="700" height="500"></canvas> -->
+  <!-- <div style="position: relative; width: 1000px; height: 600px;"> -->
+  <canvas id="graphCanvas" width="700" height="500" style="border: 1px solid black;"></canvas>
+
+  <div id="legendBox">
+    <h4>Legend</h4>
+    <p style="color: red;">(d,f): time</p>
+    <p style="color: orange;">Visiting</p>
+    <p style="color: green;">Finished</p>
+    <p style="color: yellow;">Selected</p>
+    <p style="color: darkgrey;">Unvisited</p>
+  </div>
+<!-- </div> -->
+
+
+  <br>
+  <label>Start Node: <input type="text" id="startNode" /></label>
+  <button onclick="startDFS()">Run DFS</button>
+  <button onclick="startBFS()">Run BFS</button>
+  <button onclick="runKosaraju()">Kosaraju (SCC)</button>
+  <button onclick="resetGraph()">Reset</button>
+  <p><b>Tips:</b> Click to add nodes. Click two nodes to create a directed edge.</p>
+  <script src="script.js"></script>
+</body>
+</html>
