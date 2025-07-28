@@ -1,4 +1,5 @@
-# [Graph-Algorithm-Visualiser](https://candid-marzipan-bf30eb.netlify.app/)
+# Graph Algorithm Visualiser
+[live demo](https://candid-marzipan-bf30eb.netlify.app/)
 This is a simple simulation for BFS , DFS and Kosaraju's algorithm for SCCs.<br>
 The UI is super-articulative and friendly. <br>
 The logic is hardcoded in vanilla JS.
